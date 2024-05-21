@@ -48,6 +48,7 @@ function AHeader() {
                             <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
                             <div className="dropdown-menu fade-up m-0">
                                 <Link to="/addservice" className="dropdown-item">addservice</Link>
+                                <Link to="/Mangesev" className="dropdown-item">Manage service</Link>
                             </div>
                         </div>
                         <NavLink to="/project" className="nav-item nav-link">Project</NavLink>

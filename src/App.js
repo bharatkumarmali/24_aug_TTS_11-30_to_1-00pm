@@ -7,6 +7,7 @@ import Service from "./wesite/Pages/Service";
 import Project from "./wesite/Pages/Project";
 import Adashboard from "./admin/Pages/Adashboard";
 import Addservice from "./admin/Pages/Addservice";
+import AMangeservice from "./admin/Pages/AMangeservice";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 
           <Route path="/Dashboard"  element={<><Adashboard /></>}/>
           <Route path="/addservice" element={<><Addservice /></>} />
+          <Route path="/Mangesev" element={<><AMangeservice/></>} /> 
         </Routes >
       </BrowserRouter>
     </div>

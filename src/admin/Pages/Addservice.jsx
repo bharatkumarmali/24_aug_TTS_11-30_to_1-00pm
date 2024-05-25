@@ -4,6 +4,8 @@ import AFooter from '../Comoan/AFooter'
 import axios from 'axios'
 
 function Addservice() {
+   
+
     const [fromvalue,setfromvalue] = useState({
         id:"",
         service_name:"",
